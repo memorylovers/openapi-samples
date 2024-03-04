@@ -27,6 +27,6 @@ pnpm openapi-generator-cli generate -g html2 -i ./openapi.yaml -o gen-doc-openap
 # bootprint
 pnpm bootprint openapi openapi.yaml gen-doc-bootprint
 # redoc
-pnpm redoc-cli build-docs openapi.yaml -o gen-doc-redoc/index.html
+pnpm redocly build-docs openapi.yaml -o gen-doc-redoc/index.html
 # swagger-ui
 cp openapi.yaml gen-doc-swagger-ui/openapi.yaml

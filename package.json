@@ -15,11 +15,11 @@
   },
   "devDependencies": {
     "@openapitools/openapi-generator-cli": "^2.10.0",
+    "@redocly/cli": "^1.10.1",
     "bootprint": "^4.0.4",
     "bootprint-openapi": "^4.0.4",
     "openapi-typescript": "^6.7.4",
     "openapi-typescript-codegen": "^0.27.0",
-    "redoc-cli": "^0.13.21",
     "serve": "^14.2.1"
   }
 }
