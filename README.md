@@ -33,18 +33,22 @@ pnpm serve gen-doc-openapi-generator-cli-html2
 
 - [drwpow/openapi-typescript](https://github.com/drwpow/openapi-typescript)
 - [ferdikoomen/openapi-typescript-codegen](https://github.com/ferdikoomen/openapi-typescript-codegen)
+- [openapi generator cli(typescript)](https://openapi-generator.tech/docs/generators/typescript)
+- [openapi generator cli(typescript-fetch)](https://openapi-generator.tech/docs/generators/typescript-fetch)
 
 ### generate dart
 
-- [openapi generator cli](https://openapi-generator.tech/docs/generators/dart)
+- [openapi generator cli(dart)](https://openapi-generator.tech/docs/generators/dart)
+- [openapi generator cli(dart-dio)](https://openapi-generator.tech/docs/generators/dart-dio)
 
 ### generate doc
 
+- [openapi generator cli(html)](https://openapi-generator.tech/docs/generators/html)
+- [openapi generator cli(html2)](https://openapi-generator.tech/docs/generators/html2)
 - [swagger-ui](https://github.com/swagger-api/swagger-ui/tree/master)
 - [bootprint/bootprint-openapi](https://github.com/bootprint/bootprint-openapi)
-- [spectacle](https://github.com/sourcey/spectacle)
 - [redoc-cli](https://redocly.com/docs/redoc/deployment/cli/)
-  - [redoc-cli - npm](https://www.npmjs.com/package/redoc-cli)
+- [spectacle](https://github.com/sourcey/spectacle)
 
 ## refs
 

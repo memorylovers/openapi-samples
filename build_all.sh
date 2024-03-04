@@ -8,6 +8,10 @@ pnpm tsp compile api-spec/main.tsp
 pnpm openapi-typescript ./openapi.yaml -o gen-ts-openapi-typescript/schema.d.ts
 # openapi-typescript-codegen
 pnpm openapi --input ./openapi.yaml --output ./gen-ts-openapi-typescript-codegen
+# openapi-generator-cli(typescript)
+pnpm openapi-generator-cli generate -g typescript -i ./openapi.yaml -o gen-ts-openapi-generator-cli-typescript
+# openapi-generator-cli(typescript-fetch)
+pnpm openapi-generator-cli generate -g typescript-fetch -i ./openapi.yaml -o gen-ts-openapi-generator-cli-typescript-fetch
 
 ### generate dart
 # openapi-generator-cli(dart)
