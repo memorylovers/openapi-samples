@@ -1,0 +1,5 @@
+options:
+  "@typespec/openapi3":
+    "emitter-output-dir": "{project-root}/.dist"
+emit:
+  - "@typespec/openapi3"
