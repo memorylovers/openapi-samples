@@ -20,8 +20,17 @@ pnpm serve gen-doc-swagger-ui
 pnpm serve gen-doc-redoc
 pnpm serve gen-doc-openapi-generator-cli-html
 pnpm serve gen-doc-openapi-generator-cli-html2
+pnpm serve gen-doc-bootprint
 # preview site: http://localhost:3000
 ```
+
+### doc demo
+
+- [swagger-ui](https://memorylovers.github.io/openapi-samples/gen-doc-swagger-ui)
+- [redoc](https://memorylovers.github.io/openapi-samples/gen-doc-redoc/)
+- [openapi-generator-cli(html)](https://memorylovers.github.io/openapi-samples/gen-doc-openapi-generator-cli-html/)
+- [openapi-generator-cli(html2)](https://memorylovers.github.io/openapi-samples/gen-doc-openapi-generator-cli-html2/)
+- [bootprint](https://memorylovers.github.io/openapi-samples/gen-doc-bootprint/)
 
 ## tools
 
