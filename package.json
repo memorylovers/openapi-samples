@@ -2,6 +2,10 @@
   "name": "openapi-samples",
   "version": "0.1.0",
   "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "bash build_all.sh"
+  },
   "dependencies": {
     "@typespec/compiler": "^0.53.0",
     "@typespec/http": "^0.53.0",
@@ -9,5 +13,13 @@
     "@typespec/openapi3": "^0.53.0",
     "@typespec/rest": "^0.53.0"
   },
-  "private": true
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.10.0",
+    "bootprint": "^4.0.4",
+    "bootprint-openapi": "^4.0.4",
+    "openapi-typescript": "^6.7.4",
+    "openapi-typescript-codegen": "^0.27.0",
+    "redoc-cli": "^0.13.21",
+    "serve": "^14.2.1"
+  }
 }

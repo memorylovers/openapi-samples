@@ -1,29 +1,47 @@
 # OpenAPI Samples
 
-## define spec
+## how to use
+
+### build
+
+```sh
+pnpm install
+pnpm build
+# or
+bash build_all.sh
+```
+
+### preview doc
+
+```sh
+pnpm serve <doc-dir-path>
+# ex.
+pnpm serve gen-doc-swagger-ui
+# preview site: http://localhost:3000
+```
+
+## tools
+
+### define spec
 
 - [TypeSpec](https://typespec.io/)
 
-## generate typescript
+### generate typescript
 
 - [drwpow/openapi-typescript](https://github.com/drwpow/openapi-typescript)
 - [ferdikoomen/openapi-typescript-codegen](https://github.com/ferdikoomen/openapi-typescript-codegen)
 
-## generate dart
+### generate dart
 
 - [openapi generator cli](https://openapi-generator.tech/docs/generators/dart)
 
-## generate doc
+### generate doc
 
 - [swagger-ui](https://github.com/swagger-api/swagger-ui/tree/master)
 - [bootprint/bootprint-openapi](https://github.com/bootprint/bootprint-openapi)
 - [spectacle](https://github.com/sourcey/spectacle)
 - [redoc-cli](https://redocly.com/docs/redoc/deployment/cli/)
   - [redoc-cli - npm](https://www.npmjs.com/package/redoc-cli)
-
-## utils
-
-- [serve - npm](https://www.npmjs.com/package/serve)
 
 ## refs
 
