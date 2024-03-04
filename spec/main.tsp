@@ -1,1 +1,1 @@
-import "petstore.tsp";
+import "./petstore.tsp";
