@@ -17,6 +17,9 @@ bash build_all.sh
 pnpm serve <doc-dir-path>
 # ex.
 pnpm serve gen-doc-swagger-ui
+pnpm serve gen-doc-redoc
+pnpm serve gen-doc-openapi-generator-cli-html
+pnpm serve gen-doc-openapi-generator-cli-html2
 # preview site: http://localhost:3000
 ```
 
