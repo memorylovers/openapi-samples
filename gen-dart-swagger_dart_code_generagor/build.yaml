@@ -1,0 +1,13 @@
+# fvm dart run build_runner build -d
+# https://pub.dev/packages/swagger_dart_code_generator
+targets:
+  $default:
+    sources:
+      - lib/**
+      - input_folder/**
+    builders:
+      swagger_dart_code_generator:
+        options:
+          input_folder: ./input_folder
+          output_folder: ./lib
+          separate_models: true
