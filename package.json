@@ -20,6 +20,7 @@
     "bootprint-openapi": "^4.0.4",
     "openapi-typescript": "^6.7.4",
     "openapi-typescript-codegen": "^0.27.0",
-    "serve": "^14.2.1"
+    "serve": "^14.2.1",
+    "typed-openapi": "^0.8.0"
   }
 }

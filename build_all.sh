@@ -12,6 +12,8 @@ pnpm openapi --input ./openapi.yaml --output ./gen-ts-openapi-typescript-codegen
 pnpm openapi-generator-cli generate -g typescript -i ./openapi.yaml -o gen-ts-openapi-generator-cli-typescript
 # openapi-generator-cli(typescript-fetch)
 pnpm openapi-generator-cli generate -g typescript-fetch -i ./openapi.yaml -o gen-ts-openapi-generator-cli-typescript-fetch
+# typed-openapi(valibot)
+pnpm typed-openapi ./openapi.yaml -r valibot -o gen-ts-typed-openapi-valibot/gen-ts-typed-openapi-valibot.ts
 
 ### generate dart
 # openapi-generator-cli(dart)
