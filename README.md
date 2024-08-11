@@ -44,6 +44,7 @@ pnpm serve gen-doc-bootprint
 - [ferdikoomen/openapi-typescript-codegen](https://github.com/ferdikoomen/openapi-typescript-codegen)
 - [openapi generator cli(typescript)](https://openapi-generator.tech/docs/generators/typescript)
 - [openapi generator cli(typescript-fetch)](https://openapi-generator.tech/docs/generators/typescript-fetch)
+- [typed-openapi(valibot)](https://github.com/astahmer/typed-openapi)
 
 ### generate dart
 
